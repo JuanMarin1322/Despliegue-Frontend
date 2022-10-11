@@ -1,0 +1,51 @@
+.tituloE {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2em;
+    border-bottom: 2px solid white;
+    border-image: linear-gradient(90deg, #C9133E 0%, #471267 100%) 1;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 500px;
+}
+
+.textoE {
+    margin: auto;
+    font-variant: common-ligatures;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 1em;
+}
+.subE{
+ color: #C9133E;
+ margin: auto;
+    font-variant: common-ligatures;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 1em;
+    padding-bottom: 0em;
+}
+.vinEsta {
+    padding-left: 4em;
+}
+
+@media screen and (max-width: 850px) {
+.tituloE {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2em;
+    border-bottom: 2px solid white;
+    border-image: linear-gradient(90deg, #C9133E 0%, #471267 100%) 1;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+}

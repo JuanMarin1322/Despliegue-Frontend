@@ -1,0 +1,43 @@
+
+.navlogin{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.shape {
+    width: 180px; 
+    height: 10px; 
+    border-right: 60px solid transparent;
+    border-top: 100px solid rgba(191, 28, 107, 0.8);
+    position: absolute;
+    z-index: 0;
+}
+
+.navlogin .contenedor{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo img{
+    width: 90px;
+    height: 90px;
+}
+
+.Logo {
+    z-index: 1;
+}
+
+@media screen and (max-width: 850px) {
+    .Logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Logo {
+        margin-left: 10px;
+    }
+}

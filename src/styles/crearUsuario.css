@@ -1,0 +1,239 @@
+
+    .conte-inputn {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-bottom: 1em;
+        align-items: flex-end;
+        align-content: flex-end;
+        width: 50%;
+    }
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedSecondary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-zcbmsk-MuiButtonBase-root-MuiButton-root {
+    background-color: #C9133E;
+    z-index: -1;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #D9D9D9;
+    z-index: -1;
+}
+.perfil {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: center; */
+    align-content: space-between;
+
+    
+}
+.datos-p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5%;
+}
+.datos-p-hori{
+    display: flex;
+    flex-direction: row;
+}
+img.foto {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+
+  }
+  .izquierda-btn {
+    right: 0;
+    margin: auto;
+    margin-top: 1%;
+    margin-right: 2em;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    width: 98%;
+}
+.subir-foto {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 40%;
+}
+#subir-imagen{
+    margin-top: 2em;
+}
+button#cancelar-creacion{
+    margin-left: 2em;
+    background-color: #C9133E;
+    color: #fff;
+ 
+}
+button#guardar-creacion{
+    
+    background-color: #C9133E;
+    color: #fff;
+   
+}
+
+div#incorreo {
+    width: 50%;
+}
+div#inequipo {
+    width: 50%;
+}
+
+button.subir{
+    background-color: #C9133E;
+    border-radius: 5px;
+    border: none;
+
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+    
+
+}
+button.subir h2{
+    color: #ffff;
+    font-size: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.5em;
+    
+
+}
+
+button.subir-noticia{
+    background-color: #C9133E;
+    border-radius: 5px;
+    border: none;
+    
+    
+    display: flex;
+    flex-direction: row;
+    
+    padding: 1em;
+
+    
+
+}
+button.subir-noticia h2{
+    color: #ffff;
+    font-size: 1em;
+    margin-left: 0.5em;
+
+    
+
+}
+.datos-n {
+    width: 100%;
+}
+
+
+button.subir:hover {
+    color: #c7637b;
+  }
+
+.btn-file-30 {
+    margin: auto;
+    display: flex;
+    align-content: flex-end;
+    margin-bottom: 0.5em;
+}
+
+  .compl{
+    display: flex;
+    flex-direction: row;
+  }
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: #ffff;
+}
+div#titulo {
+    width: 80%;
+}
+div#precio{
+    width: 100%;
+}
+
+.puntos-select{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 850px) {
+    .perfil {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* justify-content: center; */
+        align-content: space-between;
+    }
+
+    .datos-p {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: 5%;
+        margin: auto;
+    }
+
+    .izquierda-btn {
+        /* right: 0; */
+        margin: auto;
+        margin-top: 1%;
+        /* margin-right: 2em; */
+        margin-bottom: 1%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 98%;
+    }
+
+    .datos-p-hori{
+        display: flex;
+    flex-direction: column;
+        
+    }
+    div#incorreo {
+        width: auto;
+    }
+    div#inequipo {
+        width: auto;
+    }
+    .conte-inputn {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .compl {
+        display: flex;
+        flex-direction: column;
+    }
+    div#titulo {
+        width: 92%;
+    }
+    .puntos-select {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-group-50 {
+        width: 100% !important;
+        margin: auto !important;
+    }
+    .botmasmen {
+        display: flex;
+        flex-direction: row;
+        margin: 1em;
+        width: 100%;
+    }
+    .form-group {
+        margin-top: 1em !important;
+    }
+}

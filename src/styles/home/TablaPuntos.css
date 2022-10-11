@@ -1,0 +1,41 @@
+.TablaPuntos{
+    width: 45%;
+}
+
+
+.TablaPuntos h3 {
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 2px solid white;
+    border-image: linear-gradient(90deg, #C9133E 0%, #471267 100%) 1;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.TablaPuntos .HeadTabla th{
+    font-weight: 600;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-sizeSmall.css-6qfsqn-MuiTableCell-root {
+    font-size: 15px;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeSmall.css-1howxi1-MuiTableCell-root {
+    font-size: 15px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.tabla.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    max-height: 300px;
+}
+.css-dsuxgy-MuiTableCell-root {
+    
+    font-size: 15px;
+    
+}
+
+
+@media screen and (max-width: 850px) {
+    .TablaPuntos {
+        width: 100%;
+    }
+}

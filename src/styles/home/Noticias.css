@@ -1,0 +1,110 @@
+.CajonNoticia{
+    width: 45%;
+}
+
+.CajonNoticia h3{
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 2px solid white;
+    border-image: linear-gradient(90deg, #C9133E 0%, #471267 100%) 1;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.item {
+    z-index: -1;
+}
+
+.Acordion button{
+    position: static;
+}
+
+
+
+
+.textonoticia{
+    display: block;
+    display: -webkit-box;
+    height: 20px * 1.4 * 3;
+    font-size: 20px;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.verMas{
+    text-align: right;
+}
+.body-acordeon {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+button#verMas {
+    align-items: flex-end;
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #C9133E;
+    background-color: #C9133E;
+    color: antiquewhite;
+    width: 10%;
+    
+}
+.imagen-noticia{
+    width: 100px;
+    height: 100px;
+}
+.boton {
+    right: 0;
+    margin: auto;
+    margin-top: 2%;
+    margin-right: 1em;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.textonoticia-pre{
+    display: block;
+    display: -webkit-box;
+    height: 20px * 1.4 * 3;
+    font-size: 15px;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.boton-noticia {
+    right: 0;
+    margin: auto;
+    margin-top: 2%;
+    margin-right: 1em;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    z-index:1;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #C9133E;
+    z-index: -1;
+}
+
+tr.MuiTableRow-root.MuiTableRow-head.css-1q1u3t4-MuiTableRow-root th {
+    position: static;
+}
+
+
+@media screen and (max-width: 850px) {
+    .CajonNoticia {
+        width: 100%;
+    }
+
+}

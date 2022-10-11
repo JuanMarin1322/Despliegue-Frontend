@@ -1,0 +1,187 @@
+input.input-fo{
+    background: rgba(217, 217, 217, 0.17);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+color: rgba(255, 255, 255, 0.65);
+display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-bottom: 2px solid #C9133E;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline-style:none;
+
+}
+
+
+input.input-fo:checked{
+  border: 0;
+}
+.titulo-input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 41px;
+    text-align: left;
+    text-indent: 5px;
+    color: #003959;
+}
+.titulo-input-boton{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 41px;
+    text-align: center;
+    text-indent: 5px;
+    color: #003959;
+
+}
+div#EmailInput{
+  background: rgba(217, 217, 217, 0.17);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+border-bottom: 2px solid #C9133E;
+color: rgba(255, 255, 255, 0.65);
+display: flex;
+
+
+}
+input#pass{
+  background: transparent;
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    /* border-bottom: 2px solid #C9133E; */
+    color: #212529;
+    border: 0;
+    width: 90%;
+    padding: 0.375rem 0.75rem;
+    outline: none;
+}
+#count {
+    display: inline;
+    margin: 15px;
+  }
+
+  .botmasmen{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+  }
+
+  #my-button{
+    background:none;
+    border: none;
+    margin: auto;
+    height: 100%;
+    color: #fff;
+  }
+  #my-button2{
+    background:none;
+    border: none;
+    margin: auto;
+    height: 100%;
+    color: #fff;
+  }
+  #imgSalida {
+    display: none;
+  }
+  .cajon-resta {
+    background-color: #C9133E;
+    /* width: 100px; */
+    /* height: 10px; */
+    margin: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+  .cajon-suma {
+    background-color: #C9133E;
+    /* width: 100px; */
+    /* height: 10px; */
+    margin: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .input-puntos{
+    background: rgba(217, 217, 217, 0.17);
+    
+    
+    color: rgba(255, 255, 255, 0.65);
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #C9133E;
+    outline: none;
+  }
+  ::-ms-reveal {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 3px currentColor;
+}
+
+svg#ojo {
+  color: #C9133E;
+  margin: auto;
+  
+}
+input#pass {
+  background: transparent;
+  /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+  border-radius: 10px;
+  /* border-bottom-left-radius: 10px; */
+  /* border-top-left-radius: 10px; */
+  /* border-bottom: 2px solid #C9133E; */
+  color: #212529;
+  border: transparent;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  outline: none;
+}
+input#password {
+  background: transparent;
+  /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+  border-radius: 10px;
+  /* border-bottom-left-radius: 10px; */
+  /* border-top-left-radius: 10px; */
+  /* border-bottom: 2px solid #C9133E; */
+  color: #212529;
+  border: transparent;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  outline: none;
+}
+.position-relative-in {
+  position: relative!important;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  width: 10%;
+}
+p#tit-modal{
+  margin-left: 5%;
+}
+div#tituloE {
+  width: 100%;
+}
